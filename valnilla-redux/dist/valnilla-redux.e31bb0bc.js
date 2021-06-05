@@ -933,7 +933,7 @@ var initialState = {
   toogle: false,
   counter: 0
 }; //리듀서 함수 정의
-//state가 undefined일 때는 initialState를 기본값으로 사용
+//state가 undefined일 때는 initialState를 기본값으로 사용  state = {초기값 설정}
 
 function reducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
@@ -992,7 +992,7 @@ btnIncrease.addEventListener('click', function () {
 btnDecrease.addEventListener('click', function () {
   store.dispatch(decrease());
 });
-},{"redux":"node_modules/redux/es/redux.js"}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"redux":"node_modules/redux/es/redux.js"}],"../../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1020,7 +1020,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57283" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64994" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -1196,5 +1196,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/valnilla-redux.e31bb0bc.js.map
