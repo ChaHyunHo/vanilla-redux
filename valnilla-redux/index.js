@@ -22,7 +22,7 @@ const initialState = {
 };
 
 //리듀서 함수 정의
-//state가 undefined일 때는 initialState를 기본값으로 사용
+//state가 undefined일 때는 initialState를 기본값으로 사용  state = {초기값 설정}
 function reducer(state = initialState, action) {
     //action.type에 따라 다른 작업을 처리함
     switch(action.type) {
